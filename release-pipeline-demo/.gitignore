@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+artifacts/
+coverage.xml
+test-results.xml
+*.tar.gz
+.DS_Store
+jenkins_home/
