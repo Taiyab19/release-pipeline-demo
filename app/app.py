@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 APP_VERSION = os.environ.get("APP_VERSION", "1.0.0")
 ENVIRONMENT = os.environ.get("DEPLOY_ENV", "dev")
-START_TIME  = time.time()
+START_TIME = time.time()
 
 
 @app.route("/")
